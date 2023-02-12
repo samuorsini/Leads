@@ -1,0 +1,157 @@
+#iconTitle{
+    height: 50px;
+}
+
+#spacingIcon{
+    margin-right: 70%;
+}
+
+.heroesCenter{
+    margin-top: 13%;
+}
+
+.leadAnimation{
+    height: 150px;
+}
+
+.card{
+    margin-top: 50%;
+}
+
+/* TESTE */
+.waviy {
+    position: relative;
+    font-size: 50px;
+  }
+
+  .waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+
+
+  /* OUTRO TESTE */
+
+  h1 {
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .oneByone{
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  .oneByone:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .oneByone:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .oneByone:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .oneByone:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .oneByone:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .oneByone:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(10) {
+    animation: fade-in 0.8s 0.10s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(11) {
+    animation: fade-in 0.8s 0.11s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(12) {
+    animation: fade-in 0.8s 0.12s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(13) {
+    animation: fade-in 0.8s 0.13s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(14) {
+    animation: fade-in 0.8s 0.14s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(15) {
+    animation: fade-in 0.8s 0.15s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(16) {
+    animation: fade-in 0.8s 0.16s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(17) {
+    animation: fade-in 0.8s 0.17s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(18) {
+    animation: fade-in 0.8s 0.18s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(19) {
+    animation: fade-in 0.8s 0.19s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(20) {
+    animation: fade-in 0.8s 0.20s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(21) {
+    animation: fade-in 0.8s 0.21s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(22) {
+    animation: fade-in 0.8s 0.22s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(23) {
+    animation: fade-in 0.8s 0.23s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(24) {
+    animation: fade-in 0.8s 0.24s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .oneByone:nth-child(25) {
+    animation: fade-in 0.8s 0.25s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+  /* PARCEIROS */
+
